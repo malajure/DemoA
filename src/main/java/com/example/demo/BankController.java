@@ -8,6 +8,9 @@ public class BankController {
 
 	@GetMapping("/Fourth")
 	public String getFourth() {
+		System.out.println("changed in Bank");
+		System.out.println("changed in Bank");
+		System.out.println("changed in Bank");
 		return "Fourth";
 	}
 }
